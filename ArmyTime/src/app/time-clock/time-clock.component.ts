@@ -7,7 +7,7 @@ import { TimeService } from 'src/time.service';
   styleUrls: ['./time-clock.component.css']
 })
 export class TimeClockComponent implements OnInit {
-  militaryTime = '';
+  militaryTime = '...';
   hourselect = '';
   minselect = '';
   ampmselect = '';

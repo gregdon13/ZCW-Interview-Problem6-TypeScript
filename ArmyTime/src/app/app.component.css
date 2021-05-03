@@ -1,36 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Sarpanch:900');
 
-
 html {
-    background: linear-gradient(rgba(62, 0, 80, 1), rgba(62, 43, 120, 1));
-    background-size: cover;
-    background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+    color: black;
 }
 
-body {
-    text-align: center;
-}
 
-/* h1 {
-    grid-area: text;
-    font-family: 'Sarpanch', sans-serif;
-    font-size: 10vmin;
-    margin: 0;
-    padding: 30px;
-    color: #1d9099;
-    text-shadow: 1vmin 1vmin 0 #E79C10, -1vmin -1vmin 0 #D53A33;
-  } */
-
-  h1 {
+h1 {
     margin: 0;
     padding-bottom: 6rem;
     grid-column: 1;
     grid-row: 1;
     z-index: 1;
     font-family: 'Oxanium', cursive;
-    font-size: 7rem;
+    font-size: 8rem;
     color: #82a888;
     text-shadow: -1px 0 black, 0 5px black, 5px 0 black, 0 -1px black;
     text-transform: uppercase;
@@ -45,3 +27,35 @@ body {
       text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
     }
   }
+
+body {
+    background: linear-gradient(rgba(62, 0, 80, 1), rgba(62, 43, 120, 1));
+    /* background-attachment: fixed; */
+    background-position: center;
+  background-repeat: no-repeat;
+  content:'';
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 2%;
+  padding-bottom: 5%;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+    text-align: center;
+}
+
+#logo {
+    text-align: left;
+}
+
+/* h1 {
+    grid-area: text;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 10vmin;
+    margin: 0;
+    padding: 30px;
+    color: #1d9099;
+    text-shadow: 1vmin 1vmin 0 #E79C10, -1vmin -1vmin 0 #D53A33;
+  } */
+

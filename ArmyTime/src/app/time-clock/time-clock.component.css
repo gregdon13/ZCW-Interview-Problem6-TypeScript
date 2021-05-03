@@ -1,10 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Oxanium:wght@600&display=swap');
 
-body {
-    margin: 0;
-    height: max-content;
-}   
+/* body::before {
+    content:'';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ), url(https://i.imgur.com/fZ0LFeM.jpg);
+  } */
 
 button {
   display: block;
@@ -29,7 +39,7 @@ button {
     margin-top: 5%;
     font-size: 200%;
     font-family: 'Orbitron', sans-serif;
-
+    color: #82a888;
 }
 
 button {
