@@ -27,7 +27,9 @@ button {
 
 #time {
     margin-top: 5%;
-    font-size: large;
+    font-size: 200%;
+    font-family: 'Orbitron', sans-serif;
+
 }
 
 button {
