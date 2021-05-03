@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Sarpanch:900');
+
+
+html {
+    background: linear-gradient(rgba(62, 0, 80, 1), rgba(62, 43, 120, 1));
+    background-size: cover;
+}
+
+body {
+    text-align: center;
+}
+
+/* h1 {
+    grid-area: text;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 10vmin;
+    margin: 0;
+    padding: 30px;
+    color: #1d9099;
+    text-shadow: 1vmin 1vmin 0 #E79C10, -1vmin -1vmin 0 #D53A33;
+  } */
+
+  h1 {
+    margin: 0;
+    padding-bottom: 6rem;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    font-family: 'Oxanium', cursive;
+    font-size: 7rem;
+    color: #82a888;
+    text-shadow: -1px 0 black, 0 5px black, 5px 0 black, 0 -1px black;
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite alternate;
+    text-align: center;
+  }
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 20px black;
+    }
+    to {
+      text-shadow: 0 0 30px #34b3c1, 0 0 10px #4dbbc7;
+    }
+  }

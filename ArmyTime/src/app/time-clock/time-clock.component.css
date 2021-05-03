@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Oxanium:wght@600&display=swap');
+
+body {
+    margin: 0;
+    height: max-content;
+}   
+
+button {
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 15%;
+    font-size: large;
+    margin-top: 2%;
+}
+.hour,
+.min,
+.ampm {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 200px;
+  width: 10%;
+  height: 30%;
+}
+
+#time {
+    margin-top: 5%;
+    font-size: large;
+}
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 1.5rem;
+      color:var(--colorShadeA);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+  }
+  button {
+    padding: 1em 2em;
+    border: 2px solid var(--colorShadeA);
+   border-radius: 1em;
+ transform-style: preserve-3d;
+    transition: all 175ms cubic-bezier(0, 0, 1, 1);
+ }
+ button::before {
+   position: absolute;
+   content: '';
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   border-radius: inherit;
+     box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.75em 0 0 var(--colorShadeA);
+  transform: translate3d(0, 0.75em, -1em);
+      transition: all 175ms cubic-bezier(0, 0, 1, 1);
+      background-color: #82a888;
+ }
+ 
+ 
+ button:hover {
+   transform: translate(0, 0.375em);
+ }
+ 
+ button:hover::before {
+   transform: translate3d(0, 0.75em, -1em);
+   background-color: #82a860;
+ }
+ 
+ button:active {
+             transform: translate(0em, 0.75em);
+ }
+ 
+ button:active::before {
+   transform: translate3d(0, 0, -1em);
+   
+       box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
+ 
+ }
